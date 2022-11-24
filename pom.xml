@@ -14,6 +14,9 @@
         <module>wenmall-product</module>
         <module>wenmall-order</module>
         <module>wenmall-member</module>
+        <module>renren-generator</module>
+        <module>renren-fast</module>
+        <module>wenmall-common</module>
     </modules>
 
 
