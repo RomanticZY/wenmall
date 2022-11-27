@@ -60,6 +60,13 @@
     <orderEntry type="library" name="Maven: io.prometheus:simpleclient_tracer_otel_agent:0.15.0" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.spring:spring-context-support:1.0.11" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-context:3.1.5" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config:2021.0.4.0" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.36" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-bootstrap:3.1.5" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-loadbalancer:3.1.5" level="project" />
+    <orderEntry type="library" name="Maven: io.projectreactor:reactor-core:3.4.25" level="project" />
+    <orderEntry type="library" name="Maven: org.reactivestreams:reactive-streams:1.0.4" level="project" />
+    <orderEntry type="library" name="Maven: io.projectreactor.addons:reactor-extra:3.4.9" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:2.7.6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.7.6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.7.6" level="project" />
@@ -103,7 +110,6 @@
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-crypto:5.7.5" level="project" />
     <orderEntry type="library" name="Maven: io.github.openfeign:feign-core:11.10" level="project" />
     <orderEntry type="library" name="Maven: io.github.openfeign:feign-slf4j:11.10" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.36" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-test:2.7.6" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test:2.7.6" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test-autoconfigure:2.7.6" level="project" />
