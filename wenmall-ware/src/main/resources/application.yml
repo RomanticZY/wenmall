@@ -4,6 +4,12 @@ spring:
     password: root
     url: jdbc:mysql://192.168.56.10:3306/wenall_wms
     driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.56.1:8848
+  application:
+    name: wenmall-ware
 mybatis-plus:
   mapper-locations: classpath:/mapper/**/*.xml
   global-config:
