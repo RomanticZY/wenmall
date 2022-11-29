@@ -1,6 +1,7 @@
 package com.wen.wenmall.product.controller;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
 
@@ -32,13 +33,13 @@ public class CategoryController {
     private CategoryService categoryService;
 
     /**
-     * 列表
+     * 查出所有的分类以及子分类.以属性结构组装起来列表
      */
-    @RequestMapping("/list")
-        public R list(@RequestParam Map<String, Object> params){
-        PageUtils page = categoryService.queryPage(params);
+    @RequestMapping("/list/tree")
+        public R list(){
+      List<CategoryEntity> entities = categoryService.listWithTree();
 
-        return R.ok().put("page", page);
+        return R.ok().put("data", entities);
     }
 
 
